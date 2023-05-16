@@ -466,7 +466,7 @@ public class BSFManager {
         registerBean(beanName, bean);
 
         final BSFDeclaredBean tempBean = new BSFDeclaredBean(beanName, bean, type);
-        // declaredBeans.addElement(tempBean);
+        declaredBeans.addElement(tempBean);
 
         final Enumeration enginesEnum = loadedEngines.elements();
         BSFEngine engine;
