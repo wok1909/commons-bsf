@@ -47,7 +47,7 @@ public abstract class AbstractBSFEngineTest {
     }
 
     protected String getTmpOutStr() {
-        return tmpBaos.toString() + "test";
+        return tmpBaos.toString();
     }
 
     protected void resetTmpOut() {
