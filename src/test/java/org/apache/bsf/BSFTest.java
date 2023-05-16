@@ -140,7 +140,7 @@ public class BSFTest extends BSFEngineTestCase {
 
     public void testDeclareBean() {
         try {
-            bsfManager.declareBean("foo", new Integer(1), Integer.class);
+            bsfManager.declareBean("foo", new Integer(5), Integer.class);
         }
         catch (final Exception e) {
             fail(failMessage("declareBean() test failed", e));
