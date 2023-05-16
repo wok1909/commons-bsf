@@ -151,7 +151,7 @@ public class BSFTest extends BSFEngineTestCase {
 
     public void testUndeclareBean() {
         try {
-            bsfManager.declareBean("foo", new Integer(1), Integer.class);
+            bsfManager.declareBean("foo", new Integer(3), Integer.class);
             bsfManager.undeclareBean("foo");
         }
         catch (final Exception e) {
